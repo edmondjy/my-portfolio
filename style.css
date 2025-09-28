@@ -134,6 +134,30 @@ footer {
 
 .project-content {
   display: flex;
-  align-items: center;
+  align-items: flex-start; 
   gap: 16px;
+}
+
+.project-text {
+  display: flex;
+  flex-direction: column; 
+}
+
+
+.about-content {
+  display: flex;
+  align-items: center; 
+  gap: 20px;
+  margin-top: 16px;
+}
+
+.about-photo {
+  width: 200px;      
+  height: auto;
+  border-radius: 12px; 
+  object-fit: cover;
+}
+
+.about-text {
+  flex: 1; 
 }
